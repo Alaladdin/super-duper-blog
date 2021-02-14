@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+
+// global
+.rounded {
+  border-radius: 4px;
+}
+
+.card {
+  overflow: hidden;
+}
+
+// main side
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  &__container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  &__title {
+    font-family: serif;
+    text-align: center;
+  }
+}
+
+.comments {
+  &__title {
+    font-size: 2rem;
+  }
+}
+
+.hero {
+  margin-bottom: 40px;
+
+  &__container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    min-height: 400px;
+    background: url('../img/hero__block.webp') 20% center no-repeat;
+    background-size: cover;
+    opacity: 0;
+    animation: fadeIn .8s .2s forwards ease;
+  }
+
+  &__overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .4);
+  }
+
+  &__title {
+    padding: 0 30px;
+    color: #fff;
+    font-size: 2.8rem;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+  <title>Super Dupper Blog</title>
+  <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css'>
+  <link rel='stylesheet' href='assets/css/all.css'>
+</head>
+<body>
+
+<header class='header'>
+  <div class='container header__container'>
+    <div class='row'>
+      <div class='col'>
+        <a href='index.html' class='text-dark'>
+          <h1 class='header__title'>Super Duper Blog</h1>
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class='main'>
+  <!-- Hero block -->
+  <section class='hero'>
+    <div class='container hero__container rounded'>
+      <div class='hero__overlay'></div>
+      <div class='row'>
+        <div class='col'>
+          <h2 class='hero__title'>Discover the world of stories</h2>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class='content'>
+    <div class='container'>
+      <!-- Posts container -->
+      <div class='row blog-posts content__posts'></div>
+
+      <!-- Pagination -->
+      <div class='row'>
+        <div class='col'>
+          <nav aria-label='Page navigation'>
+            <ul class='pagination justify-content-center my-5'>
+              <li class='page-item pagination__item-prev disabled'>
+                <a class='page-link pagination__prev' aria-label='Previous'>
+                  <span aria-hidden='true'>&laquo;</span>
+                  <span class='sr-only'>Previous</span>
+                </a>
+              </li>
+              <li class='page-item pagination__item-next disabled'>
+                <a class='page-link pagination__next' aria-label='Next'>
+                  <span aria-hidden='true'>&raquo;</span>
+                  <span class='sr-only'>Next</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- Footer -->
+<footer class='footer'>
+  <div class='container-fluid footer footer_container bg-dark py-3'>
+    <div class='row'>
+      <div class='col text-center'>
+        <a href='https://github.com/Alaladdin/super-duper-blog' class='text-light' target='_blank'>source code</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script defer src='assets/js/index.js'></script>
+</body>
+</html>

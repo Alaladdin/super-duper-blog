@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+  <title>Post | Super Dupper Blog</title>
+  <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css'>
+  <link rel='stylesheet' href='assets/css/all.css'>
+</head>
+<body>
+
+<!-- Header -->
+<header class='header'>
+  <div class='container header__container'>
+    <div class='row'>
+      <div class='col'>
+        <a href='index.html' class='text-dark'>
+          <h2 class='header__title'>Super Duper Blog</h2>
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class='main'>
+  <!-- Post content -->
+  <section class='post-content'>
+    <!-- Post image -->
+    <div class='container-fluid'>
+      <div class='row'>
+        <div class='col-12 text-center px-0'>
+          <img src='https://source.unsplash.com/1920x500' alt='' class='img-fluid post-content__img'>
+        </div>
+      </div>
+    </div>
+
+    <!-- Post main side -->
+    <div class='container pt-3'>
+      <div class='row flex-column'>
+        <div class='col'>
+          <!-- Post meta -->
+          <div class='post-content__meta mb-2 text-muted'>
+            <div class='post-content__created-date'></div>
+            <div class='post-content__author'></div>
+          </div>
+          <h1 class='post-content__title my-4'></h1>
+          <p class='post-content__body mb-5'></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Comments -->
+    <div class='container'>
+      <div class='row justify-content-center'>
+        <div class='comments col col-md-10 col-lg-8'>
+          <h5 class='comments__title text-dark text-center my-3 d-none'>Comments</h5>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- Footer -->
+<footer class='footer'>
+  <div class='container-fluid footer footer_container bg-dark py-3'>
+    <div class='row'>
+      <div class='col text-center'>
+        <a href='https://github.com/Alaladdin/super-duper-blog' class='text-light' target='_blank'>source code</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script defer src='assets/js/post.js'></script>
+</body>
+</html>
