@@ -2,7 +2,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/73957dc8-8423-4f96-bc0f-1ace114d1322/deploy-status)](https://app.netlify.com/sites/super-puper/deploys)
 
-[Websites demo](super-puper.netlify.app)
+[Websites demo](https://super-puper.netlify.app)
 
 Simple blog width single post layout, pagination and post comments
 
